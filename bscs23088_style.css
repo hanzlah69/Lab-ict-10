@@ -1,0 +1,81 @@
+#nav 
+{
+    width:750px;
+    margin:0 auto;
+    list-style:none;
+    border-radius: 50% ;
+    text-align: center;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    overflow: auto;
+    text-align: center;
+}
+
+#nav li {
+    margin: 12px 20px;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s;
+    padding: 3px 3px;
+    text-align: center;
+    color: red
+}
+
+body {
+    height: 125vh;
+    margin-top: 60px; /* Adjusted the margin-top to 60px */
+    padding: 30px;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #474146; /* Changed the background color to a shade of orange */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0; /* Adjusted the top position to 0 */
+    height: 60px; /* Adjusted the height to 60px */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added a subtle box shadow */
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header li {
+    display: inline;
+    margin: 0 20px; 
+    text-align: center;
+}
+
+header li a {
+    color: rgb(252, 252, 254); 
+    text-decoration: none;
+    font-weight: bold; 
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+}
+
+
+
